@@ -75,7 +75,25 @@ source : https://www.w3schools.com/tags/tag_ol.asp
 
 ## Q10 - In which situation can you use self closing tags?
 
+Source : Which HTML tags are self closing? - Quorawww.quora.com
+
+`<area />` – clickable area inside an image map.
+
+`<base />` – new root or base path for relitive paths.
+
+`<br />` – single line break in a paragraph.
+
+`<embed />` – embeds things like flash.
+
+`<hr />` – change in type of content.
+
+`<iframe />` – frame inside the page.
+
+`<img />` – image.
+
 ## Q11 - What is autofilling and why is it important?
+
+The software complete the entry you started typing. The autofill framework improves the user experience by providing the following benefits: Less time spent in filling fields. Autofill saves users from re-typing information. Minimize user input errors.
 
 ## Q12 - Which attributes are always present in an img element?
 

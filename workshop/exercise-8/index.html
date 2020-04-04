@@ -1,1 +1,57 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercice 8</title>
+  </head>
+  <body>
+    <h1>Registration form</h1>
+    <form>
+      <div>
+        <label for="texte">Username</label>
+        <input type="text" required />
+
+        <label for="password">Password</label>
+        <input type="password" required />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="text" required />
+      </div>
+    </form>
+
+    <p>Which taxi do you require?</p>
+    <form action="checkbox">
+      <table>
+        <input type="checkbox" />
+        <label for="car">Car</label>
+        <input type="checkbox" />
+        <label for="van">Van</label>
+        <input type="checkbox" />
+        <label for="tuk tuk">Tuk Tuk</label>
+      </table>
+    </form>
+
+    <p>Extras</p>
+    <form action="checkbox">
+      <input type="checkbox" />
+      <label for="baby seat">Baby seat</label>
+      <input type="checkbox" />
+      <label for="wheelchair access">Wheelchair Access</label>
+      <input type="checkbox" />
+      <label for="stock tip">Stock Tip</label>
+    </form>
+
+    <p>Pickup</p>
+    <select name="Pickup" id="Pickup">
+      <option value="Select one">Select one</option>
+      <option value="Taxi Office">Taxi Office</option>
+      <option value="Town Hall">Town Hall</option>
+      <option value="We'll Guess!">We'll Guess!</option>
+    </select>
+
+    <p>Special</p>
+    <input type="text" required />
+    <button>Submit</button>
+  </body>
+</html>
